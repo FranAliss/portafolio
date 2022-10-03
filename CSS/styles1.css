@@ -120,6 +120,7 @@ body{
     position: relative;
     font-family: Light;
   }
+  
   .slider > a:active {
     top: 1px;
   }
