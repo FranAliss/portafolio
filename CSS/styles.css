@@ -1,0 +1,128 @@
+@font-face {
+    font-family: Bold;
+    src: url(/Portafolio/Fonts/Oxygen-Bold.ttf);
+}
+
+@font-face {
+    font-family: Light;
+    src: url(/Portafolio/Fonts/Oxygen-Light.ttf);
+}
+
+@font-face {
+    font-family: Normal;
+    src: url(/Portafolio/Fonts/Oxygen-Regular.ttf);
+}
+
+body, html{
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    background: url(/Portafolio/Fotos/foto2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+#presentacion{
+    display: flex;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.805);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    width: 700px;
+    border-radius: 15px;
+    box-shadow: 0px 0.1px 1px;
+}
+
+
+#img{
+    display:flex;
+    width: 50%;
+    height: 50%;
+    background-image: url(/Portafolio/Fotos/Vertical.jpeg);
+    opacity: 0.9;
+    background-size: cover;
+    border-radius: 5px;
+    transition: height 1s ease-in-out;
+    box-shadow: 0px 1px 5px;
+}
+
+#img:hover{
+    height: 62%;
+    opacity: 1;
+}
+
+#botones{
+    display:flex;
+    height: 30%;
+    width: 30%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-around; */
+}
+
+#btnMusica{
+    height:50px;
+    width:200px;
+    font-size: 20px;
+    font-family: Normal;
+    background-color: white;
+    color: black;
+    border: 2px solid #ffffff57;
+    transition-duration: 0.4s;
+    border-radius: 9px;
+    box-shadow: 0px 1px 1px;
+}
+
+#btnMusica:hover{
+    background-color: rgb(169, 149, 104);
+    color: white;
+}
+
+#btnProgra{
+    height:50px;
+    width:200px;
+    font-size: 20px;
+    font-family: Normal;
+    background-color: white;
+    color: black;
+    border: 2px solid #ffffff57;
+    transition-duration: 0.4s;
+    border-radius: 9px;
+    box-shadow: 0px 1px 1px;
+}
+
+#btnProgra:hover{
+    background-color: rgb(20, 71, 106);
+    color: white;
+}
+
+#nombre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 20%;
+}
+
+#textN{
+    padding: 0;
+    font-family: Bold;
+    font-size:150%;
+}
+
+#textR{
+    font-family: Light;
+    margin: 0;
+}

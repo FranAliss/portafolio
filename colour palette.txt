@@ -1,0 +1,2 @@
+clarito (hueso) -->> rgb(232,225,216) 
+    sombra ->  rgba(232, 225, 216, 0.871)

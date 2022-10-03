@@ -1,0 +1,8 @@
+- PORTAFOLIO TENDRA 2 PAGINAS -->
+ 1.- PRESENTACION GENERAL (INFORMACION GENERAL, FOTO, ETC) Botones para seleccionar perfil de artista o perfil de Programador
+
+ 2.1.- PERFIL ARTISTA --> Carrusel de las portadas con sus nombres., links a las redes sociales. Estadisticas (Streams, etc)
+  el fondo debe ser la foto9.jpg.
+
+ 2.2.- PERFIL PROGRAMADOR
+  el fondo debe ser (?).
